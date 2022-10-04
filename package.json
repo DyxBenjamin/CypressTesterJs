@@ -1,0 +1,22 @@
+{
+  "name": "seleniumtesterjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cy:open:staging": "cypress open --env configFile=stage"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^105.0.1",
+    "selenium-webdriver": "^4.4.0"
+  },
+  "devDependencies": {
+    "cypress": "^10.9.0",
+    "cypress-plugin-tab": "^1.0.5"
+  }
+}
